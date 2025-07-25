@@ -39,6 +39,11 @@ public class MainController {
 		return "index";
 	}
 	
+	@GetMapping("/yaho")
+	public String yaho() {
+		return "yaho";
+	}
+	
     @GetMapping("/search")
     @ResponseBody
     public ResponseEntity<?> search(
